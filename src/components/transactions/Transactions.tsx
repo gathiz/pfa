@@ -37,7 +37,7 @@ const Transactions = () => {
                 {filteredItems.map((transaction, index) => (
                     <TransactionItem
                         key={index}
-                        icon={"/avatars/${transaction.avatar}"}
+                        icon={`/avatars/${transaction.avatar}`}
                         name={transaction.name}
                         date={formatDate(transaction.date)}
                         amount={transaction.amount}

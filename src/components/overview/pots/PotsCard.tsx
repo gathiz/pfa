@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import { usePotStore } from "../../../store/pot.store";
 import { formatCurrency } from "../../../util";
-import { BASE_PATH } from "../../../constants";
 
 const PotsCard = () => {
 
@@ -22,7 +21,7 @@ const PotsCard = () => {
             </div>
             <div className="flex w-full">
                 <div className="flex items-center mx-4 my-4 bg-gray-100 w-1/2 rounded-lg">
-                    <img className="mx-4" src={`${BASE_PATH}/icon-pot.svg`} width="20" height="20" />
+                    <img className="mx-4" src={"/icon-pot.svg"} width="20" height="20" />
                 <div className="flex flex-col items-center justify-evenly mx-2 px-4 my-2">
                     <p className="text-sm">Total Saved</p>
                     <h1 className="text-2xl font-bold">{formatCurrency(850)}</h1>
