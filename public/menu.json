@@ -1,0 +1,7 @@
+[
+    { "id": 1, "title": "Overview", "path": "/", "icon":  "icon-nav-overview.svg" },
+    { "id": 2, "title": "Transactions", "path": "/transactions", "icon":  "icon-nav-transactions.svg" },
+    { "id": 3, "title": "Budgets", "path": "/budgets", "icon":  "icon-nav-budgets.svg" },
+    { "id": 4, "title": "Pots", "path": "/pots", "icon":  "icon-nav-pots.svg" },
+    { "id": 5, "title": "Recurring Bills", "path": "/bills", "icon":  "icon-nav-recurring-bills.svg" }
+  ]

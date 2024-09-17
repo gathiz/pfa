@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.body {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+    font-size: 0.937rem;
+    line-height: 1.5625rem;
+    background-color: #a13131;
+}
